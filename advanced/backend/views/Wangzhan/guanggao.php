@@ -25,21 +25,7 @@
 <div class="logo">
 <h1><img src="tpl/img/logo.png" alt="后台管理 - 客客专业威客系统" title="后台管理 - 客客专业威客系统"/></h1>
     </div>
-<div class="arrow" id="show_much">
-<a href="#" id="a_show_more" class="show_hide" style="display:none">▼</a>
-<div class="hide_nav">
-<ul>
-<li><a href="index.php?do=config" rel="config">全局配置</a></li>
-<li><a href="index.php?do=article" rel="article">资讯管理</a></li>
-<li><a href="index.php?do=task" rel="task">任务管理</a></li>
-<li><a href="index.php?do=shop" rel="shop">商店管理</a></li>
-<li><a href="index.php?do=finance" rel="finance">财务管理</a></li>
-<li><a href="index.php?do=user" rel="user">用户管理</a></li>
-<li><a href="index.php?do=tool" rel="tool">站长工具</a></li>
-<li><a href="index.php?do=app" rel="app">应用中心</a></li>
-</ul> 
-</div>
-</div>
+
    <script type="text/javascript">
     	$(function (){
 show_a();
