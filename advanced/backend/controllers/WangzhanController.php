@@ -6,7 +6,7 @@ use yii\web\Controller;
 use common\models\LoginForm;
 use yii\filters\VerbFilter;
 class WangzhanController extends Controller{
-	public function actionguanggao(){
+	public function actionGuanggao(){
 		return $this->renderPartial('guanggao');
 	}
 }
