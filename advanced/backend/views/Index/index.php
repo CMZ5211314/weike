@@ -207,7 +207,7 @@ window.onload = function(){
                   	<dt><i class="arrow_r">&nbsp;</i>关于网站</dt>
                   <dd>
                         <ul >
-                        	<li><a href="index.php?do=article&view=list&type=bulletin" target="display_frame" r_id="156">网站公告</a></li>
+                        	<li><a href="index.php?r=wangzhan/guanggao" target="display_frame" r_id="156">网站公告</a></li>
 <li><a href="index.php?do=article&view=list&type=about" target="display_frame" r_id="157">网站介绍</a></li>
  		                        </ul>
                   </dd>
