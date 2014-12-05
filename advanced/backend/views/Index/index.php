@@ -33,7 +33,7 @@
     	<ul>
     		<!--顶部一级菜单 start-->
 <li><a href="#" rel="shortcuts"class="select">快捷操作</a></li>
-    		<li><a href="index.php?r=index/config" rel="config">全局配置</a></li>
+<li><a href="#" rel="config">全局配置</a></li>
 <li><a href="#" rel="article">资讯管理</a></li>
 <li><a href="#" rel="task">任务管理</a></li>
 <li><a href="#" rel="shop">商店管理</a></li>
@@ -163,7 +163,7 @@ window.onload = function(){
                   	<dt><i class="arrow_r">&nbsp;</i>系统配置</dt>
                   <dd>
                         <ul >
-                        	<li><a href="index.php?do=config&view=basic&op=info" target="display_frame" r_id="34">全局配置</a></li>
+                        	<li><a href="index.php?r=quanju/peizhi" target="display_frame" r_id="34">全局配置</a></li>
 <li><a href="index.php?do=config&view=model" target="display_frame" r_id="37">模型管理</a></li>
 <li><a href="index.php?do=config&view=integration" target="display_frame" r_id="35">会员整合</a></li>
 <li><a href="index.php?do=config&view=nav" target="display_frame" r_id="41">自定义导航</a></li>
