@@ -9,5 +9,8 @@ class WangzhanController extends Controller{
 	public function actionGuanggao(){
 		return $this->renderPartial('guanggao');
 	}
+	public function actionJieshao(){
+		return $this->renderPartial('jieshao');
+	}
 }
 ?>

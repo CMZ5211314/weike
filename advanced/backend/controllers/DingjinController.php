@@ -5,15 +5,12 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use common\models\LoginForm;
 use yii\filters\VerbFilter;
-
-class WenzhangController extends Controller{
+class DingjinController extends Controller{
 	public function actionGuanli(){
 		return $this->renderPartial('guanli');
 	}
-	public function actionFenlei(){
-		return $this->renderPartial('fenlei');
+	public function actionPeizhi(){
+		return $this->renderPartial('peizhi');
 	}
-
-
 }
 ?>
