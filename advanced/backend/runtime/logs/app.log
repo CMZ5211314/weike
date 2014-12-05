@@ -3195,3 +3195,747 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417770078.862
     'REQUEST_TIME' => 1417770078
 ]
+2014-12-05 10:06:50 [192.168.1.14][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "hangye/jineng".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('hangye/jineng', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "hangye/jineng".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 10:06:50 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+2014-12-05 10:06:50 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'hangye/jineng'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=main'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56446'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=hangye/jineng'
+    'REQUEST_URI' => '/backend/web/index.php?r=hangye/jineng'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770410.347
+    'REQUEST_TIME' => 1417770410
+]
+2014-12-05 10:10:58 [192.168.1.14][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ')', expecting '('' in D:\weike\advanced\backend\controllers\JiekouController.php:10
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 10:10:58 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/denglu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56455'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/denglu'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/denglu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770658.329
+    'REQUEST_TIME' => 1417770658
+]
+2014-12-05 10:11:21 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\jiekou\denglu.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\JiekouController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('denglu', Array, Object(backend\controllers\JiekouController))
+#2 D:\weike\advanced\backend\controllers\JiekouController.php(11): yii\base\Controller->renderPartial('denglu')
+#3 [internal function]: backend\controllers\JiekouController->actionDenglu()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('denglu', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('jiekou/denglu', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:11:21 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:11:21 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/denglu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/denglu'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/denglu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770681.807
+    'REQUEST_TIME' => 1417770681
+]
+2014-12-05 10:11:24 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\jiekou\ditu.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\JiekouController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('ditu', Array, Object(backend\controllers\JiekouController))
+#2 D:\weike\advanced\backend\controllers\JiekouController.php(14): yii\base\Controller->renderPartial('ditu')
+#3 [internal function]: backend\controllers\JiekouController->actionDitu()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('ditu', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('jiekou/ditu', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:11:24 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:11:24 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/ditu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56465'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/ditu'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/ditu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770684.661
+    'REQUEST_TIME' => 1417770684
+]
+2014-12-05 10:11:25 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\jiekou\peizhi.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\JiekouController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('peizhi', Array, Object(backend\controllers\JiekouController))
+#2 D:\weike\advanced\backend\controllers\JiekouController.php(17): yii\base\Controller->renderPartial('peizhi')
+#3 [internal function]: backend\controllers\JiekouController->actionPeizhi()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('peizhi', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('jiekou/peizhi', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:11:25 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:11:25 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/peizhi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/peizhi'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/peizhi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770685.301
+    'REQUEST_TIME' => 1417770685
+]
+2014-12-05 10:11:25 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\jiekou\duanxin.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\JiekouController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('duanxin', Array, Object(backend\controllers\JiekouController))
+#2 D:\weike\advanced\backend\controllers\JiekouController.php(20): yii\base\Controller->renderPartial('duanxin')
+#3 [internal function]: backend\controllers\JiekouController->actionDuanxin()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('duanxin', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('jiekou/duanxin', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:11:25 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:11:25 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/duanxin'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/duanxin'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/duanxin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770685.738
+    'REQUEST_TIME' => 1417770685
+]
+2014-12-05 10:11:26 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\jiekou\zhifu.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\JiekouController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('zhifu', Array, Object(backend\controllers\JiekouController))
+#2 D:\weike\advanced\backend\controllers\JiekouController.php(23): yii\base\Controller->renderPartial('zhifu')
+#3 [internal function]: backend\controllers\JiekouController->actionZhifu()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('zhifu', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('jiekou/zhifu', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:11:26 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:11:26 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'jiekou/zhifu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56468'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=jiekou/zhifu'
+    'REQUEST_URI' => '/backend/web/index.php?r=jiekou/zhifu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770686.159
+    'REQUEST_TIME' => 1417770686
+]
+2014-12-05 10:15:10 [192.168.1.14][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: zengzhi/fuwu' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('fuwu', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('zengzhi/fuwu', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: zengzhi/fuwu' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 10:15:10 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+2014-12-05 10:15:10 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'zengzhi/fuwu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=main'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zengzhi/fuwu'
+    'REQUEST_URI' => '/backend/web/index.php?r=zengzhi/fuwu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770910.341
+    'REQUEST_TIME' => 1417770910
+]
+2014-12-05 10:15:11 [192.168.1.14][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: zengzhi/gouwu' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('gouwu', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('zengzhi/gouwu', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: zengzhi/gouwu' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 10:15:11 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+2014-12-05 10:15:11 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'zengzhi/gouwu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=main'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zengzhi/gouwu'
+    'REQUEST_URI' => '/backend/web/index.php?r=zengzhi/gouwu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770911.043
+    'REQUEST_TIME' => 1417770911
+]
+2014-12-05 10:16:19 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\zengzhi\guanli.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\ZengzhiController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('guanli', Array, Object(backend\controllers\ZengzhiController))
+#2 D:\weike\advanced\backend\controllers\ZengzhiController.php(11): yii\base\Controller->renderPartial('guanli')
+#3 [internal function]: backend\controllers\ZengzhiController->actionFuwu()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('fuwu', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('zengzhi/fuwu', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:16:19 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:16:19 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'zengzhi/fuwu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56524'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zengzhi/fuwu'
+    'REQUEST_URI' => '/backend/web/index.php?r=zengzhi/fuwu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770979.238
+    'REQUEST_TIME' => 1417770979
+]
+2014-12-05 10:16:21 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\zengzhi\goumai.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\ZengzhiController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('goumai', Array, Object(backend\controllers\ZengzhiController))
+#2 D:\weike\advanced\backend\controllers\ZengzhiController.php(14): yii\base\Controller->renderPartial('goumai')
+#3 [internal function]: backend\controllers\ZengzhiController->actionGouwu()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('gouwu', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('zengzhi/gouwu', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 10:16:21 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 10:16:21 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'zengzhi/gouwu'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '56527'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=zengzhi/gouwu'
+    'REQUEST_URI' => '/backend/web/index.php?r=zengzhi/gouwu'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417770981.095
+    'REQUEST_TIME' => 1417770981
+]
