@@ -16,8 +16,5 @@ class IndexController extends Controller{
 	public function actionCenter(){
 		return $this->renderPartial('center');
 	}
-	public function actionArtilcle(){
-		return $this->renderPartial('article/article');
-	}
 }
 ?>
