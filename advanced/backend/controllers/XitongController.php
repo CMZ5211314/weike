@@ -7,7 +7,7 @@ use common\models\LoginForm;
 use yii\filters\VerbFilter;
 
 class XitongController extends Controller{
-	public function actionpeizhi(){
+	public function actionPeizhi(){
 		return $this->renderPartial('peizhi');
 	}
 }
