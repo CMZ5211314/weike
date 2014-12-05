@@ -14,7 +14,7 @@ class IndexController extends \yii\web\Controller
 	}
 	public function actionLoginout(){
 			session_destroy();
-			echo "<script>alert('退出成功');location.href='index.php?r=login/login'</script>";
+			echo "<script>alert('退出成功');location.href='index.php?r=login/index'</script>";
 	}
 	
 

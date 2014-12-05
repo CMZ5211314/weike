@@ -105,6 +105,132 @@
   </thead>
                   <tbody>
                                     <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="318" class="checkbox">318</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=318&type=bulletin&page=1" >
+大神大神大神</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">大神</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=318" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=318&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=318&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="317" class="checkbox">317</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=317&type=bulletin&page=1" >
+大飒飒的</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">阿斯达</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=317" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=317&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=317&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="316" class="checkbox">316</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=316&type=bulletin&page=1" >
+打扫打扫</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">按时按时</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=316" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=316&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=316&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="315" class="checkbox">315</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=315&type=bulletin&page=1" >
+大神按时打算</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">阿萨德</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=315" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=315&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=315&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="314" class="checkbox">314</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=314&type=bulletin&page=1" >
+大神阿萨德</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">大声道</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=314" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=314&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=314&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="313" class="checkbox">313</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=313&type=bulletin&page=1" >
+大声大声道</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">大声道</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=313" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=313&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=313&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
+                  	<td><input type="checkbox" name="ckb[]" value="311" class="checkbox">311</td>
+                    <td class="td28 wraphide">
+                    	网站公告</td>
+                    <td>
+                    	<a href="index.php?do=article&view=edit&art_id=311&type=bulletin&page=1" >
+大神多少道</a>
+</td>
+                    <td class="wraphide">0</td>
+                    <td class="wraphide">匿名</td>
+                    <td class="ws_break">2014-12-05</td>
+                    <td>
+                    	 
+<a href="../../index.php?do=single&art_id=311" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
+<a href="index.php?do=article&view=edit&art_id=311&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
+<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=311&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
+</td>
+                  </tr>
+                                    <tr class="item">
                   	<td><input type="checkbox" name="ckb[]" value="308" class="checkbox">308</td>
                     <td class="td28 wraphide">
                     	网站公告</td>
@@ -158,24 +284,6 @@
 <a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=303&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
 </td>
                   </tr>
-                                    <tr class="item">
-                  	<td><input type="checkbox" name="ckb[]" value="302" class="checkbox">302</td>
-                    <td class="td28 wraphide">
-                    	网站公告</td>
-                    <td>
-                    	<a href="index.php?do=article&view=edit&art_id=302&type=bulletin&page=1" >
-震撼上线2</a>
-</td>
-                    <td class="wraphide">4</td>
-                    <td class="wraphide">客客族</td>
-                    <td class="ws_break">2012-08-31</td>
-                    <td>
-                    	 
-<a href="../../index.php?do=single&art_id=302" target="_blank" class="button"><span class="book icon"></span>浏览</a> 
-<a href="index.php?do=article&view=edit&art_id=302&type=bulletin&page=1" class="button dbl_target"><span class="pen icon"></span>编辑</a>
-<a href="index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&art_id=302&ac=del&page=1"  onclick="return cdel(this);" class="button"><span class="trash icon"></span>删除</a>
-</td>
-                  </tr>
                                     </tbody>
   <tfoot>
                   <tr>
@@ -190,7 +298,7 @@
                   </tr>
                 </tfoot>
               </table>
-  <div class="page"></div>
+  <div class="page"><span> 1 / 2页 </span> <a class="selected">1</a><a href=javascript:; onclick=ajaxpage('ajax_dom','index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&page=2','2','1')>2</a><a href=javascript:; onclick=ajaxpage('ajax_dom','index.php?do=article&view=list&w[username]=&w[art_title]=&w[art_cat_id]=&page_size=&page=&type=bulletin&ord[0]=&ord[1]=&page=2','2','1')>下一页>></a></div>
   </div>
         	</form>
         </div>       
