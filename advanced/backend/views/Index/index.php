@@ -149,10 +149,10 @@ window.onload = function(){
                   	<dt><i class="arrow_r">&nbsp;</i>快捷操作</dt>
                   <dd>
                         <ul id="ul_kjcz">
-                        	
-                        	                        		<li><a href="index.php?do=tool&view=dbbackup" target="display_frame" class="select" r_id="142">数据库管理</a></li>
-                        		<li><a href="index.php?do=auth&view=item_list" target="display_frame"  r_id="38">认证项目</a></li>
-                        		<li><a href="index.php?do=tool&view=cache&sbt_edit=1&ckb_obj_cache=1&ckb_tpl_cache=1" target="display_frame"  r_id="20">更新缓存</a></li>
+
+<li><a href="index.php?do=tool&view=dbbackup" target="display_frame" class="select" r_id="142">数据库管理</a></li>
+<li><a href="index.php?do=auth&view=item_list" target="display_frame"  r_id="38">认证项目</a></li>
+<li><a href="index.php?do=tool&view=cache&sbt_edit=1&ckb_obj_cache=1&ckb_tpl_cache=1" target="display_frame"  r_id="20">更新缓存</a></li>
 </ul>
                   </dd>
                 </dl>
