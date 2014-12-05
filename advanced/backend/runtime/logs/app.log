@@ -10085,3 +10085,3087 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417779190.914
     'REQUEST_TIME' => 1417779190
 ]
+2014-12-05 12:40:43 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/gaikuang' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('gaikuang', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/gaikuang', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/gaikuang' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:40:43 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:40:43 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/gaikuang'
+    'tt' => '0.4319701514544517'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/gaikuang&tt=0.4319701514544517'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/gaikuang&tt=0.4319701514544517'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779643.51
+    'REQUEST_TIME' => 1417779643
+]
+2014-12-05 12:40:51 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/gaikuang' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('gaikuang', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/gaikuang', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/gaikuang' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:40:51 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:40:51 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/gaikuang'
+    'tt' => '0.7387765863694273'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58676'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/gaikuang&tt=0.7387765863694273'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/gaikuang&tt=0.7387765863694273'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779651.188
+    'REQUEST_TIME' => 1417779651
+]
+2014-12-05 12:44:10 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('mingxi', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/mingxi', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:44:10 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:44:10 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58698'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779850.055
+    'REQUEST_TIME' => 1417779850
+]
+2014-12-05 12:44:28 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot redeclare backend\controllers\CaiwuController::actionGaikuang()' in D:\weike\advanced\backend\controllers\CaiwuController.php:15
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:44:28 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/chongzhi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58699'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/chongzhi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/chongzhi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779868.915
+    'REQUEST_TIME' => 1417779868
+]
+2014-12-05 12:45:23 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:21
+2014-12-05 12:45:23 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/tixian'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/tixian'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/tixian'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779923.065
+    'REQUEST_TIME' => 1417779923
+]
+2014-12-05 12:45:24 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:25
+2014-12-05 12:45:24 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/shoudong'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/shoudong'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/shoudong'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779924.775
+    'REQUEST_TIME' => 1417779924
+]
+2014-12-05 12:45:28 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:9
+2014-12-05 12:45:28 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/gaikuang'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/gaikuang'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/gaikuang'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779928.815
+    'REQUEST_TIME' => 1417779928
+]
+2014-12-05 12:45:30 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('mingxi', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/mingxi', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:45:30 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:45:30 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779930.165
+    'REQUEST_TIME' => 1417779930
+]
+2014-12-05 12:45:33 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('mingxi', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/mingxi', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:45:33 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:45:33 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58716'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779933.625
+    'REQUEST_TIME' => 1417779933
+]
+2014-12-05 12:45:34 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\caiwu\fenxi.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\CaiwuController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('fenxi', Array, Object(backend\controllers\CaiwuController))
+#2 D:\weike\advanced\backend\controllers\CaiwuController.php(13): yii\base\Controller->render('fenxi')
+#3 [internal function]: backend\controllers\CaiwuController->actionFenxi()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('fenxi', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/fenxi', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 12:45:34 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 12:45:34 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/fenxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58711'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/fenxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/fenxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779934.065
+    'REQUEST_TIME' => 1417779934
+]
+2014-12-05 12:45:35 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\caiwu\fenxi.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\CaiwuController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(367): yii\base\View->render('fenxi', Array, Object(backend\controllers\CaiwuController))
+#2 D:\weike\advanced\backend\controllers\CaiwuController.php(13): yii\base\Controller->render('fenxi')
+#3 [internal function]: backend\controllers\CaiwuController->actionFenxi()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('fenxi', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/fenxi', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 12:45:35 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 12:45:35 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/fenxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/fenxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/fenxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779935.265
+    'REQUEST_TIME' => 1417779935
+]
+2014-12-05 12:45:36 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('mingxi', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/mingxi', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:45:36 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:45:36 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58718'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779936.015
+    'REQUEST_TIME' => 1417779936
+]
+2014-12-05 12:45:48 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:9
+2014-12-05 12:45:48 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/gaikuang'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/gaikuang'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/gaikuang'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779948.815
+    'REQUEST_TIME' => 1417779948
+]
+2014-12-05 12:45:51 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('mingxi', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/mingxi', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: caiwu/mingxi' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:45:51 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:45:51 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58720'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779951.215
+    'REQUEST_TIME' => 1417779951
+]
+2014-12-05 12:46:07 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:29
+2014-12-05 12:46:07 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/mingxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58743'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/mingxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/mingxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779967.745
+    'REQUEST_TIME' => 1417779967
+]
+2014-12-05 12:46:08 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\CaiwuController.php:9
+2014-12-05 12:46:08 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'caiwu/gaikuang'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58743'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/gaikuang'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/gaikuang'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779968.715
+    'REQUEST_TIME' => 1417779968
+]
+2014-12-05 12:46:30 [192.168.1.14][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: D:\weike\advanced\backend\views\caiwu\fenxi.php' in D:\weike\advanced\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\weike\advanc...', Array, Object(backend\controllers\CaiwuController))
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(386): yii\base\View->render('fenxi', Array, Object(backend\controllers\CaiwuController))
+#2 D:\weike\advanced\backend\controllers\CaiwuController.php(13): yii\base\Controller->renderPartial('fenxi')
+#3 [internal function]: backend\controllers\CaiwuController->actionFenxi()
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('fenxi', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('caiwu/fenxi', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 12:46:30 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 12:46:30 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'caiwu/fenxi'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58748'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=caiwu/fenxi'
+    'REQUEST_URI' => '/backend/web/index.php?r=caiwu/fenxi'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417779990.015
+    'REQUEST_TIME' => 1417779990
+]
+2014-12-05 12:51:04 [192.168.1.14][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'session_destroy(): Trying to destroy uninitialized session' in D:\weike\advanced\backend\controllers\IndexController.php:17
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'session_destroy...', 'D:\weike\advanc...', 17, Array)
+#1 D:\weike\advanced\backend\controllers\IndexController.php(17): session_destroy()
+#2 [internal function]: backend\controllers\IndexController->actionLoginout()
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('loginout', Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/loginout', Array)
+#7 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2014-12-05 12:51:04 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/loginout'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58773'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/loginout'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/loginout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780264.569
+    'REQUEST_TIME' => 1417780264
+]
+2014-12-05 12:51:38 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:51:38 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:51:38 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/loginout'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58779'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=login/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780298.125
+    'REQUEST_TIME' => 1417780298
+]
+2014-12-05 12:52:10 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:10 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58786'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/index'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780330.635
+    'REQUEST_TIME' => 1417780330
+]
+2014-12-05 12:52:13 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:13 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58787'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780333.615
+    'REQUEST_TIME' => 1417780333
+]
+2014-12-05 12:52:17 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:17 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58788'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780337.624
+    'REQUEST_TIME' => 1417780337
+]
+2014-12-05 12:52:29 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:29 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/main'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58789'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/main'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/main'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780349.449
+    'REQUEST_TIME' => 1417780349
+]
+2014-12-05 12:52:41 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:41 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58790'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780361.82
+    'REQUEST_TIME' => 1417780361
+]
+2014-12-05 12:52:47 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:47 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58791'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780367.17
+    'REQUEST_TIME' => 1417780367
+]
+2014-12-05 12:52:47 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:47 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58792'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780367.857
+    'REQUEST_TIME' => 1417780367
+]
+2014-12-05 12:52:48 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:48 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58793'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780368.184
+    'REQUEST_TIME' => 1417780368
+]
+2014-12-05 12:52:58 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:52:58 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58794'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780378.122
+    'REQUEST_TIME' => 1417780378
+]
+2014-12-05 12:53:07 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:53:07 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58799'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780387.762
+    'REQUEST_TIME' => 1417780387
+]
+2014-12-05 12:53:12 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:53:12 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58800'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780392.193
+    'REQUEST_TIME' => 1417780392
+]
+2014-12-05 12:54:47 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:54:47 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58811'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780487.525
+    'REQUEST_TIME' => 1417780487
+]
+2014-12-05 12:54:58 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:54:58 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780498.257
+    'REQUEST_TIME' => 1417780498
+]
+2014-12-05 12:55:00 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:55:00 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58813'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780500.519
+    'REQUEST_TIME' => 1417780500
+]
+2014-12-05 12:55:24 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:55:24 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58814'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780524.263
+    'REQUEST_TIME' => 1417780524
+]
+2014-12-05 12:55:38 [192.168.1.14][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\BaseYii.php(288): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'D:\weike\advanc...', 3, Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\BaseYii.php(288): yii\BaseYii::autoload()
+#2 [internal function]: yii\BaseYii::autoload('backend\control...')
+#3 [internal function]: spl_autoload_call('backend\control...')
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(563): class_exists('backend\control...')
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/login')
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/login', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 12:55:38 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58815'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780537.993
+    'REQUEST_TIME' => 1417780537
+]
+2014-12-05 12:55:40 [192.168.1.14][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'The use statement with non-compound name 'Yii' has no effect' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\BaseYii.php(288): yii\base\ErrorHandler->handleError(2, 'The use stateme...', 'D:\weike\advanc...', 3, Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\BaseYii.php(288): yii\BaseYii::autoload()
+#2 [internal function]: yii\BaseYii::autoload('backend\control...')
+#3 [internal function]: spl_autoload_call('backend\control...')
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(563): class_exists('backend\control...')
+#5 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('index')
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('index/login')
+#7 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/login', Array)
+#8 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2014-12-05 12:55:40 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58816'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780540.037
+    'REQUEST_TIME' => 1417780540
+]
+2014-12-05 12:55:57 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:55:57 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58817'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780557.462
+    'REQUEST_TIME' => 1417780557
+]
+2014-12-05 12:56:14 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:56:14 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58818'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780574.638
+    'REQUEST_TIME' => 1417780574
+]
+2014-12-05 12:56:21 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:56:21 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58819'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780581.876
+    'REQUEST_TIME' => 1417780581
+]
+2014-12-05 12:56:33 [192.168.1.14][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Namespace declaration statement has to be the very first statement in the script' in D:\weike\advanced\backend\controllers\IndexController.php:3
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:56:33 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/main'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58823'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/main'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/main'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780593.81
+    'REQUEST_TIME' => 1417780593
+]
+2014-12-05 12:57:08 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "login/login".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/login', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "login/login".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:57:09 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:08 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/loginout'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58833'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=login/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=login/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780628.957
+    'REQUEST_TIME' => 1417780628
+]
+2014-12-05 12:57:19 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/login' in D:\weike\advanced\vendor\yiisoft\yii2\base\Controller.php:122
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('login', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('index/login', Array)
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request: index/login' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:57:19 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:19 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'index/login'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58838'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index/login'
+    'REQUEST_URI' => '/backend/web/index.php?r=index/login'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780639.222
+    'REQUEST_TIME' => 1417780639
+]
+2014-12-05 12:57:23 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:23 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58839'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780643.871
+    'REQUEST_TIME' => 1417780643
+]
+2014-12-05 12:57:35 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:35 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58840'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780655.009
+    'REQUEST_TIME' => 1417780655
+]
+2014-12-05 12:57:35 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:35 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58841'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780655.711
+    'REQUEST_TIME' => 1417780655
+]
+2014-12-05 12:57:36 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:57:36 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58842'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780656.101
+    'REQUEST_TIME' => 1417780656
+]
+2014-12-05 12:58:14 [192.168.1.14][-][-][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'backend\controllers\SiteController' in file: D:\weike\advanced/backend/controllers/SiteController.php. Namespace missing?' in D:\weike\advanced\vendor\yiisoft\yii2\BaseYii.php:291
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\control...')
+#1 [internal function]: spl_autoload_call('backend\control...')
+#2 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(563): class_exists('backend\control...')
+#3 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(521): yii\base\Module->createControllerByID('site')
+#4 D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php(449): yii\base\Module->createController('')
+#5 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('', Array)
+#6 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2014-12-05 12:58:14 [192.168.1.14][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+2014-12-05 12:58:14 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58843'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780694.696
+    'REQUEST_TIME' => 1417780694
+]
+2014-12-05 12:58:26 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:58:26 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58845'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780706.926
+    'REQUEST_TIME' => 1417780706
+]
+2014-12-05 12:58:59 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sute/logout".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('sute/logout', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "sute/logout".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:58:59 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:58:59 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'sute/logout'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58896'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sute/logout'
+    'REQUEST_URI' => '/backend/web/index.php?r=sute/logout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780739.327
+    'REQUEST_TIME' => 1417780739
+]
+2014-12-05 12:59:42 [192.168.1.14][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "sute/logout".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('sute/logout', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "sute/logout".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 12:59:42 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 12:59:42 [192.168.1.14][-][-][info][application] $_GET = [
+    'r' => 'sute/logout'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=sute/logout'
+    'REQUEST_URI' => '/backend/web/index.php?r=sute/logout'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780782.743
+    'REQUEST_TIME' => 1417780782
+]
+2014-12-05 13:00:29 [192.168.1.14][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in D:\weike\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-05 13:00:29 [192.168.1.14][-][-][info][application] $_COOKIE = [
+    'PHPSESSID' => 'uh0mhqluqmu3n1t66bd5kgdgs5'
+    '_csrf' => 'a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s:32:\"Hvf8eLZJc2eee16mHjndU34UqjjGv7XK\";'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; rv:28.0) Gecko/20100101 Firefox/28.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=uh0mhqluqmu3n1t66bd5kgdgs5; _csrf=a514691f1f7e68f4a4c681791276e8f043c5d7ab548d02b3f2a778d3f578e352s%3A32%3A%22Hvf8eLZJc2eee16mHjndU34UqjjGv7XK%22%3B'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '58914'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/index.php'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417780829.762
+    'REQUEST_TIME' => 1417780829
+]

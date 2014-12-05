@@ -101,12 +101,12 @@ $("#show_much").hide();
     <div class="user_box">
     	<div class="avatar">
         	<a href="#" title="admin"><img src='http://www.dashixun.com/one/weike/data/avatar/default/man_small.jpg' uid='1' class='pic_small'></a> </div>
-        <div class="name">您好，创始人<b>admin</b></div>
+        <div class="name">您好，创始人<b><?php echo @$_SESSION['username']?></b></div>
         <div class="link_bar">
         	<a href="javascript:;" class="lock" onclick="fresh();" title="刷新">刷新</a> 
          	<a href="javascript:;" class="lock" onclick="del_cache();" title="清除缓存">清除缓存</a> 
             <a href="../../index.php" target="_blank" class="sitehome">网站首页</a>
-            <a href="index.php?do=logout" class="exit">安全退出</a>        
+            <a href="index.php?r=index/loginout" class="exit">安全退出</a>        
         </div>
    </div>
 </div>
