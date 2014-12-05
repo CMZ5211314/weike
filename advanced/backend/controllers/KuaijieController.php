@@ -10,6 +10,9 @@ class KuaijieController extends Controller{
 	public function actionRenzheng(){
 		return $this->renderPartial('renzheng');
 	}
+	public function actionGengxin(){
+		return $this->renderPartial('gengxin');
+	}
 	
 }
 ?>
