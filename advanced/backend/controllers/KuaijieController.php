@@ -7,7 +7,7 @@ use common\models\LoginForm;
 use yii\filters\VerbFilter;
 
 class KuaijieController extends Controller{
-	public function actionIndex(){
+	public function actionRenzheng(){
 		return $this->renderPartial('renzheng');
 	}
 	
