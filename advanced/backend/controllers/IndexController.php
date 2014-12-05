@@ -1,13 +1,10 @@
 <?php
-namespace backend\controllers;
-use Yii;
-use yii\filters\AccessControl;
-use yii\web\Controller;
-use common\models\LoginForm;
-use yii\filters\VerbFilter;
 
-class IndexController extends Controller{
-	public function actionIndex(){
+namespace backend\controllers;
+
+class IndexController extends \yii\web\Controller
+{
+    public function actionIndex(){
 		return $this->renderPartial('login');
 	}
 	public function actionMain(){
@@ -16,5 +13,5 @@ class IndexController extends Controller{
 	public function actionCenter(){
 		return $this->renderPartial('center');
 	}
+
 }
-?>

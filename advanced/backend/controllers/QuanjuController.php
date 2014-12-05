@@ -1,15 +1,11 @@
 <?php
-namespace backend\controllers;
-use Yii;
-use yii\filters\AccessControl;
-use yii\web\Controller;
-use common\models\LoginForm;
-use yii\filters\VerbFilter;
 
-class QuanjuController extends Controller{
-	public function actionQuanju(){
+namespace backend\controllers;
+
+class QuanjuController extends \yii\web\Controller
+{
+    public function actionQuanju(){
 		return $this->renderPartial('config');
 	}
-	
+
 }
-?>

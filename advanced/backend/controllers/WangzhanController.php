@@ -1,16 +1,14 @@
 <?php
+
 namespace backend\controllers;
-use Yii;
-use yii\filters\AccessControl;
-use yii\web\Controller;
-use common\models\LoginForm;
-use yii\filters\VerbFilter;
-class WangzhanController extends Controller{
-	public function actionGuanggao(){
+
+class WangzhanController extends \yii\web\Controller
+{
+    public function actionGuanggao(){
 		return $this->renderPartial('guanggao');
 	}
 	public function actionJieshao(){
 		return $this->renderPartial('jieshao');
 	}
+
 }
-?>
