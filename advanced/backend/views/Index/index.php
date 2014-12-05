@@ -161,11 +161,11 @@ window.onload = function(){
                   	<dt><i class="arrow_r">&nbsp;</i>系统配置</dt>
                   <dd>
                         <ul >
-                        	<li><a href="index.php?r=wangzhan/guanggao" target="display_frame" r_id="34">全局配置</a></li>
-<li><a href="index.php?r=wangzhan/moxing" target="display_frame" r_id="37">模型管理</a></li>
-<li><a href="index.php?r=wangzhan/huiyuan" target="display_frame" r_id="35">会员整合</a></li>
-<li><a href="index.php?r=wangzhan/zidingyi" target="display_frame" r_id="41">自定义导航</a></li>
-<li><a href="index.php?r=wangzhan/huilu" target="display_frame" r_id="148">汇率配置</a></li>
+                        	<li><a href="index.php?r=quanju/peizhi" target="display_frame" r_id="34">全局配置</a></li>
+<li><a href="index.php?r=quanju/moxing" target="display_frame" r_id="37">模型管理</a></li>
+<li><a href="index.php?r=quanju/huiyuan" target="display_frame" r_id="35">会员整合</a></li>
+<li><a href="index.php?r=quanju/zidingyi" target="display_frame" r_id="41">自定义导航</a></li>
+<li><a href="index.php?r=quanju/huilu" target="display_frame" r_id="148">汇率配置</a></li>
  		                        </ul>
                   </dd>
                 </dl>
