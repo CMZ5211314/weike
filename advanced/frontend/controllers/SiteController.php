@@ -21,9 +21,6 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
-	public function actionaaa(){
-		echo 1;
-	}
     public function behaviors()
     {
         return [
