@@ -18,11 +18,7 @@
 <!--[if IE 6]><div id="ie6"><![endif]-->
 <!--[if IE 7]><div id="ie7"><![endif]-->
 <!--[if IE 8]><div id="ie8"><![endif]-->
-<div id="append_parent"></div>
-<div id="ajaxwaitid" style="display:none">
-<div>
-        	<img src="./resource/img/system/loading.gif" alt="loading"/>
-请求处理中...</div>
+
 </div>
 <div class="login_box">
 <div class="header">
