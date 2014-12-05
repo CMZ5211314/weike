@@ -486,3 +486,1795 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417741855.855
     'REQUEST_TIME' => 1417741855
 ]
+2014-12-05 07:58:21 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:21 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=auth&view=item_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55076'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762701.492
+    'REQUEST_TIME' => 1417762701
+]
+2014-12-05 07:58:22 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:22 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=tool&view=cache&sbt_edit=1&ckb_obj_cache=1&ckb_tpl_cache=1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55077'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762702.753
+    'REQUEST_TIME' => 1417762702
+]
+2014-12-05 07:58:23 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:23 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=auth&view=item_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55078'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762703.678
+    'REQUEST_TIME' => 1417762703
+]
+2014-12-05 07:58:27 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:27 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=model&model_id=1&view=list&status=0&tt=0.4668478569947183'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55077'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762707.344
+    'REQUEST_TIME' => 1417762707
+]
+2014-12-05 07:58:28 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:28 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=store&view=list&tt=0.7282320423983037'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762708.255
+    'REQUEST_TIME' => 1417762708
+]
+2014-12-05 07:58:28 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:28 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=finance&view=revenue&tt=0.9985222802497447'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55078'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762708.618
+    'REQUEST_TIME' => 1417762708
+]
+2014-12-05 07:58:28 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:28 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=user&view=add&tt=0.15712365438230336'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55081'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762708.878
+    'REQUEST_TIME' => 1417762708
+]
+2014-12-05 07:58:29 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:29 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=app_center&tt=0.32762544276192784'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55076'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762709.124
+    'REQUEST_TIME' => 1417762709
+]
+2014-12-05 07:58:29 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:58:29 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=app_center&tt=0.6707561656367034'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55080'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762709.382
+    'REQUEST_TIME' => 1417762709
+]
+2014-12-05 07:59:00 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:00 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=task_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55084'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762740.672
+    'REQUEST_TIME' => 1417762740
+]
+2014-12-05 07:59:01 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:01 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=service_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762741.245
+    'REQUEST_TIME' => 1417762741
+]
+2014-12-05 07:59:01 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:01 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=message_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762741.645
+    'REQUEST_TIME' => 1417762741
+]
+2014-12-05 07:59:02 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:01 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=weibo_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762741.964
+    'REQUEST_TIME' => 1417762741
+]
+2014-12-05 07:59:02 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:02 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=denounce_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55088'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762742.231
+    'REQUEST_TIME' => 1417762742
+]
+2014-12-05 07:59:08 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:08 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=config&view=basic&op=info&tt=0.6302615692839026'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55090'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762748.464
+    'REQUEST_TIME' => 1417762748
+]
+2014-12-05 07:59:09 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:09 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=config&view=basic&op=info&tt=0.6302615692839026'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55089'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762749.683
+    'REQUEST_TIME' => 1417762749
+]
+2014-12-05 07:59:22 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:22 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=tool&view=dbbackup'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55092'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762762.219
+    'REQUEST_TIME' => 1417762762
+]
+2014-12-05 07:59:41 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:41 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=tool&view=dbbackup'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55098'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762781.095
+    'REQUEST_TIME' => 1417762781
+]
+2014-12-05 07:59:42 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:42 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=auth&view=item_list'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762782.767
+    'REQUEST_TIME' => 1417762782
+]
+2014-12-05 07:59:43 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 07:59:43 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=tool&view=cache&sbt_edit=1&ckb_obj_cache=1&ckb_tpl_cache=1'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55102'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762783.694
+    'REQUEST_TIME' => 1417762783
+]
+2014-12-05 08:00:26 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:00:26 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=config&view=basic&op=info&tt=0.07883369666524231'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55105'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762826.526
+    'REQUEST_TIME' => 1417762826
+]
+2014-12-05 08:00:27 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:00:27 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=article&view=list&type=bulletin&tt=0.7260062487330288'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55105'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762827.894
+    'REQUEST_TIME' => 1417762827
+]
+2014-12-05 08:00:28 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:00:28 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=model&model_id=1&view=list&status=0&tt=0.43762963102199137'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55110'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762828.853
+    'REQUEST_TIME' => 1417762828
+]
+2014-12-05 08:00:55 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:00:55 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=app&view=app_center&tt=0.870519982650876'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55112'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762855.014
+    'REQUEST_TIME' => 1417762855
+]
+2014-12-05 08:02:20 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:02:20 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=config&view=basic&op=info&tt=0.02280465280637145'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55117'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762940.201
+    'REQUEST_TIME' => 1417762940
+]
+2014-12-05 08:02:26 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:02:26 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=article&view=list&type=bulletin&tt=0.3354720703791827'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55120'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762946.423
+    'REQUEST_TIME' => 1417762946
+]
+2014-12-05 08:02:39 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+    in D:\weike\advanced\backend\controllers\SiteController.php:73
+2014-12-05 08:02:39 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=article&view=list&type=bulletin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55126'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/backend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417762959.04
+    'REQUEST_TIME' => 1417762959
+]
+2014-12-05 08:04:49 [192.168.1.14][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "wangzhan/guanggao".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('wangzhan/guangg...', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "wangzhan/guanggao".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 08:04:49 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+2014-12-05 08:04:48 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'wangzhan/guanggao'
+    'tt' => '0.7941389039624482'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=article&view=list&type=bulletin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55144'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=wangzhan/guanggao&tt=0.7941389039624482'
+    'REQUEST_URI' => '/backend/web/index.php?r=wangzhan/guanggao&tt=0.7941389039624482'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417763088.986
+    'REQUEST_TIME' => 1417763088
+]
+2014-12-05 08:04:51 [192.168.1.14][][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "wangzhan/guanggao".' in D:\weike\advanced\vendor\yiisoft\yii2\base\Module.php:461
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('wangzhan/guangg...', Array)
+#1 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Unable to resolve the request "wangzhan/guanggao".' in D:\weike\advanced\vendor\yiisoft\yii2\web\Application.php:95
+Stack trace:
+#0 D:\weike\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\weike\advanced\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2014-12-05 08:04:51 [192.168.1.14][][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.14
+    in D:\weike\advanced\backend\views\layouts\main.php:68
+2014-12-05 08:04:51 [192.168.1.14][][-][info][application] $_GET = [
+    'r' => 'wangzhan/guanggao'
+]
+
+$_COOKIE = [
+    '_csrf' => '02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs:32:\"rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs\";'
+    'PHPSESSID' => 'ofhkd5d3b843u9u643hoprkgc3'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/index.php?do=article&view=list&type=bulletin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.weike.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.weike.com/backend/web/index.php?r=index/main'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf=02d1a3a665932883902453752e499da0b578ab1710404e04ed307b6b957847ebs%3A32%3A%22rmkPRZPeyhpd9npwCM8xVWIa6Ejv7pWs%22%3B; PHPSESSID=ofhkd5d3b843u9u643hoprkgc3'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;G:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;G:\\fourth\\svn\\bin;G:\\nine\\app\\app\\bin;G:\\nine\\app\\app\\jre\\bin;G:\\web\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\TortoiseGit\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.weike.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.weike.com'
+    'SERVER_ADDR' => '192.168.1.14'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.14'
+    'DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/weike/advanced'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'D:/weike/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '55147'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=wangzhan/guanggao'
+    'REQUEST_URI' => '/backend/web/index.php?r=wangzhan/guanggao'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417763091.607
+    'REQUEST_TIME' => 1417763091
+]
