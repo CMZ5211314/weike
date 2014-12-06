@@ -36,7 +36,8 @@ class LoginController extends \yii\web\Controller
     }
     public function actionAa()
     {
-    	 return $this->renderPartial('index');
+    	 //return $this->renderPartial('');
+        echo "<script>location.href='./index.php?r=index/main'</script>";
     }
 
 }

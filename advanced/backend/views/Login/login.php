@@ -71,6 +71,7 @@ if(i){
 if(allow_num>0)
 {
   var username=$("#txt_username").val();
+  //alert(usernmae);
   var password=$("#pwd_pwd").val();
   var token=$("#token").val();
   $.ajax({

@@ -15441,3 +15441,3557 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1417828055.366
     'REQUEST_TIME' => 1417828055
 ]
+2014-12-06 02:09:51 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('aa', Array)
+#2 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/aa', Array)
+#3 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\Users\Administrator\Desktop\xiaocun\advanced\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-06 02:09:51 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:09:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/aa'
+]
+
+$_POST = [
+    'token' => 'ce9abd'
+    'allow_time' => '5'
+    'username' => '123'
+    'password' => '123'
+    'login' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50398'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/aa'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/aa'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828191.42
+    'REQUEST_TIME' => 1417828191
+]
+2014-12-06 02:12:43 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828363.811
+    'REQUEST_TIME' => 1417828363
+]
+2014-12-06 02:12:44 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50407'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828364.728
+    'REQUEST_TIME' => 1417828364
+]
+2014-12-06 02:12:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50408'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828365.298
+    'REQUEST_TIME' => 1417828365
+]
+2014-12-06 02:12:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50409'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828365.428
+    'REQUEST_TIME' => 1417828365
+]
+2014-12-06 02:12:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50410'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828365.576
+    'REQUEST_TIME' => 1417828365
+]
+2014-12-06 02:12:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50411'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828365.744
+    'REQUEST_TIME' => 1417828365
+]
+2014-12-06 02:12:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50412'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828366.368
+    'REQUEST_TIME' => 1417828366
+]
+2014-12-06 02:12:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50413'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828366.551
+    'REQUEST_TIME' => 1417828366
+]
+2014-12-06 02:12:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50414'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828366.729
+    'REQUEST_TIME' => 1417828366
+]
+2014-12-06 02:12:46 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50415'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828366.897
+    'REQUEST_TIME' => 1417828366
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50416'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.06
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50417'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.223
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.399
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50419'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.561
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50420'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.728
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:47 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828367.906
+    'REQUEST_TIME' => 1417828367
+]
+2014-12-06 02:12:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828368.071
+    'REQUEST_TIME' => 1417828368
+]
+2014-12-06 02:12:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50423'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828368.236
+    'REQUEST_TIME' => 1417828368
+]
+2014-12-06 02:12:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828368.368
+    'REQUEST_TIME' => 1417828368
+]
+2014-12-06 02:12:48 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'eUg0dndHYnFIcAA6Pz81CDAQQykYfhAUTjtQAUdwJx4gK35GNiQKNg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50425'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828368.549
+    'REQUEST_TIME' => 1417828368
+]
+2014-12-06 02:12:54 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50426'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828374.871
+    'REQUEST_TIME' => 1417828374
+]
+2014-12-06 02:12:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828375.483
+    'REQUEST_TIME' => 1417828375
+]
+2014-12-06 02:12:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50428'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828375.654
+    'REQUEST_TIME' => 1417828375
+]
+2014-12-06 02:12:55 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50429'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828375.818
+    'REQUEST_TIME' => 1417828375
+]
+2014-12-06 02:12:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828375.989
+    'REQUEST_TIME' => 1417828375
+]
+2014-12-06 02:12:56 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:12:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'RGg5Tm9iMFN1UA0CJxpnKg0wThEAW0I2cxtdOV9VdTwdC3N.LgFYFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50431'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828376.149
+    'REQUEST_TIME' => 1417828376
+]
+2014-12-06 02:13:10 [127.0.0.1][-][-][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Unable to verify your data submission.' in C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\web\Controller.php:110
+Stack trace:
+#0 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Module.php(455): yii\base\Controller->runAction('aa', Array)
+#2 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\web\Application.php(83): yii\base\Module->runAction('login/aa', Array)
+#3 C:\Users\Administrator\Desktop\xiaocun\advanced\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 C:\Users\Administrator\Desktop\xiaocun\advanced\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2014-12-06 02:13:10 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'backend\controllers\AccessControl' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\SiteController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:13:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/aa'
+]
+
+$_POST = [
+    'token' => 'ce9abd'
+    'allow_time' => '5'
+    'username' => '123'
+    'password' => '123'
+    'login' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '58'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50432'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/aa'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/aa'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828390.539
+    'REQUEST_TIME' => 1417828390
+]
+2014-12-06 02:21:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:21:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'OHpMb09GZ1MJQngjBz4wKnEiOzAgfxU2DwkoGH9xIjxhGQZfDiUPFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50471'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828862.515
+    'REQUEST_TIME' => 1417828862
+]
+2014-12-06 02:21:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:21:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'OHpMb09GZ1MJQngjBz4wKnEiOzAgfxU2DwkoGH9xIjxhGQZfDiUPFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50472'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828862.685
+    'REQUEST_TIME' => 1417828862
+]
+2014-12-06 02:21:02 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:21:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'OHpMb09GZ1MJQngjBz4wKnEiOzAgfxU2DwkoGH9xIjxhGQZfDiUPFA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828862.855
+    'REQUEST_TIME' => 1417828862
+]
+2014-12-06 02:22:07 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50474'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828927.832
+    'REQUEST_TIME' => 1417828927
+]
+2014-12-06 02:22:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50476'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828928.498
+    'REQUEST_TIME' => 1417828928
+]
+2014-12-06 02:22:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50477'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828928.676
+    'REQUEST_TIME' => 1417828928
+]
+2014-12-06 02:22:08 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:08 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50478'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828928.843
+    'REQUEST_TIME' => 1417828928
+]
+2014-12-06 02:22:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50479'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828929.018
+    'REQUEST_TIME' => 1417828929
+]
+2014-12-06 02:22:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50480'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828929.186
+    'REQUEST_TIME' => 1417828929
+]
+2014-12-06 02:22:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50481'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828929.349
+    'REQUEST_TIME' => 1417828929
+]
+2014-12-06 02:22:09 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:22:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'STlKTXRWdld4AX4BPC4hLgBhPRIbbwQyfkouOkRhMzgQWgB9NTUeEA=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50482'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417828929.499
+    'REQUEST_TIME' => 1417828929
+]
+2014-12-06 02:23:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50484'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829016.074
+    'REQUEST_TIME' => 1417829016
+]
+2014-12-06 02:23:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50485'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829016.705
+    'REQUEST_TIME' => 1417829016
+]
+2014-12-06 02:23:36 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50488'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829016.89
+    'REQUEST_TIME' => 1417829016
+]
+2014-12-06 02:23:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50487'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.083
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50489'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.267
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50490'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.437
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.618
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:37 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50492'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.802
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:38 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50493'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829017.978
+    'REQUEST_TIME' => 1417829017
+]
+2014-12-06 02:23:38 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50494'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829018.146
+    'REQUEST_TIME' => 1417829018
+]
+2014-12-06 02:23:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50495'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829025.511
+    'REQUEST_TIME' => 1417829025
+]
+2014-12-06 02:23:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50496'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829025.706
+    'REQUEST_TIME' => 1417829025
+]
+2014-12-06 02:23:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\WitkeyMember' not found' in C:\Users\Administrator\Desktop\xiaocun\advanced\backend\controllers\LoginController.php:16
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2014-12-06 02:23:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/login'
+    'callback' => 'showList'
+]
+
+$_POST = [
+    'user' => '123'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    '_csrf' => '63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s:32:\"184LHxWyIXw_o9re7sdw07EoYcJ0AchG\";'
+    'PHPSESSID' => 'jihjtcgh6edf21o3jos6hk1531'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'D:/web/xampp/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'D:/web/xampp/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.1308phpa1.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '16'
+    'HTTP_ACCEPT' => 'text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01'
+    'HTTP_ORIGIN' => 'http://www.1308phpa1.com'
+    'HTTP_X_CSRF_TOKEN' => 'M1paanpVcFUCYm4mMi0nLHoCLTUVbAIwBCk.HUpiNTpqORBaOzYYEg=='
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.57 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_REFERER' => 'http://www.1308phpa1.com/advanced/backend/web/index.php?r=login/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_csrf=63c1fbe5c78b39ac1eb784687a1b767982cdca52d63413b0279c2309b2131487s%3A32%3A%22184LHxWyIXw_o9re7sdw07EoYcJ0AchG%22%3B; PHPSESSID=jihjtcgh6edf21o3jos6hk1531'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\web\\php\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;E:\\JDK\\bin;E:\\JDK\\jre\\bin;D:\\web\\SVN\\language\\bin;C:\\Program Files\\TortoiseGit\\bin;D:\\web\\mysql\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9 Server at www.1308phpa1.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Win32) OpenSSL/1.0.1e PHP/5.5.9'
+    'SERVER_NAME' => 'www.1308phpa1.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Users/Administrator/Desktop/xiaocun'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/Users/Administrator/Desktop/xiaocun/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50497'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/login&callback=showList'
+    'REQUEST_URI' => '/advanced/backend/web/index.php?r=login/login&callback=showList'
+    'SCRIPT_NAME' => '/advanced/backend/web/index.php'
+    'PHP_SELF' => '/advanced/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1417829025.867
+    'REQUEST_TIME' => 1417829025
+]
