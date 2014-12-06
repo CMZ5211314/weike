@@ -10,14 +10,14 @@ class LoginController extends \yii\web\Controller
     }
     public function actionLogin()
     {
-    	session_start();
+    	//session_start();
     	$username=$_POST['user'];
     	$password=$_POST['pwd'];
     	$model=new WitkeyMember();
     	$username=$model::find()->where(['username'=>$username])->one();
     	$password=$model::find()->where(['password'=>$password])->one();
 
-    	$_SESSION['user']=$username;
+    	//$_SESSION['user']=$username;
     	 
     	 //echo $_SESSION['user'];die;
 		if($username)

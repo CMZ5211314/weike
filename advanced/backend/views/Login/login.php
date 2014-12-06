@@ -63,6 +63,7 @@ $(function(){
 $("#txt_username").focus();
 })
 function check_login(){
+  //alert($);
 var allow_num=$("#allow_num").val();
 
 var i = checkForm(document.getElementById("admin_login"));
@@ -82,8 +83,9 @@ if(allow_num>0)
           success:function(e)
           {
             if(e==1)
-            {alert("成功");
-             location.href="./index.php?r=login/aa";
+            {
+              alert("登录成功");
+              location.href="./index.php?r=index/main";
             // return true;
               //location.href="./index.php?r=login/index";
             }else if(e==0)
