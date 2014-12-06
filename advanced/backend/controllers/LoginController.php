@@ -1,16 +1,18 @@
 <?php
+ 
 namespace backend\controllers;
 use app\models\WitkeyMember;
-
+session_start();
 class LoginController extends \yii\web\Controller
 {
+   
     public function actionIndex()
     {
         return $this->render('login');
     }
     public function actionLogin()
     {
-    	//session_start();
+    	
     	$username=$_POST['user'];
     	$password=$_POST['pwd'];
     	$model=new WitkeyMember();
@@ -23,8 +25,10 @@ class LoginController extends \yii\web\Controller
 		if($username)
 		{
 			if($password)
-			{
+			{ 
+                $_SESSION['username']=$username;
 				exit("showList(".json_encode(1).")");
+
 			}else
 			{
 				exit("showList(".json_encode(0).")");
@@ -36,7 +40,8 @@ class LoginController extends \yii\web\Controller
     }
     public function actionAa()
     {
-    	 //return $this->renderPartial('');
+        //echo 
+    	//return $this->renderPartial('');
         echo "<script>location.href='./index.php?r=index/main'</script>";
     }
 
